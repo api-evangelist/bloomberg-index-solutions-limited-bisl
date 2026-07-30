@@ -6,7 +6,19 @@ description: Bloomberg Index Solutions Limited (BISL) is the entity that adminis
   and licensing for asset managers and financial institutions using Bloomberg indices
   as benchmarks or for financial product construction.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-index-solutions-limited-bisl.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
