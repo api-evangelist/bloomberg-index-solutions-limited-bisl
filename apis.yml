@@ -26,6 +26,13 @@ specificationVersion: '0.23'
 tags:
 - Index
 - Fixed Income
+- Benchmarks
+- Multi-Asset
+- Index Administration
+- Bloomberg
+tags_raw:
+- Index
+- Fixed Income
 - Benchmark
 - Multi-Asset
 - Index Administration
@@ -54,6 +61,11 @@ apis:
   humanURL: https://www.bloomberg.com/professional/solution/indices/
   baseURL: https://indices.bloomberg.com
   tags:
+  - Index Licensing
+  - ETFs
+  - Benchmark Regulation
+  - BMR
+  tags_raw:
   - Index Licensing
   - ETF
   - Benchmark Regulation
