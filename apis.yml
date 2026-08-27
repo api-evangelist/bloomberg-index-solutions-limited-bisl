@@ -1,9 +1,8 @@
 aid: bloomberg-index-solutions-limited-bisl
 name: Bloomberg Index Solutions Limited (BISL)
-description: Bloomberg Index Solutions Limited (BISL) is the entity that administers
-  Bloomberg's fixed income and multi-asset indices, including the Bloomberg Global
-  Aggregate Bond Index and other benchmark indices. BISL provides index data, calculations,
-  and licensing for asset managers and financial institutions using Bloomberg indices
+description: Bloomberg Index Solutions Limited (BISL) is the entity that administers Bloomberg's fixed income and
+  multi-asset indices, including the Bloomberg Global Aggregate Bond Index and other benchmark indices. BISL provides
+  index data, calculations, and licensing for asset managers and financial institutions using Bloomberg indices
   as benchmarks or for financial product construction.
 type: Index
 accessModel:
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-index-solutions-limited-bisl.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Index
@@ -40,9 +39,8 @@ tags_raw:
 apis:
 - aid: bloomberg-index-solutions-limited-bisl:index-data-api
   name: Bloomberg Index Data API
-  description: Access Bloomberg index constituent data, returns, analytics, and historical
-    data for the Bloomberg Global Aggregate, US Aggregate, Euro Aggregate, and other
-    benchmark indices via BLPAPI and Data License.
+  description: Access Bloomberg index constituent data, returns, analytics, and historical data for the Bloomberg
+    Global Aggregate, US Aggregate, Euro Aggregate, and other benchmark indices via BLPAPI and Data License.
   humanURL: https://www.bloomberg.com/professional/solution/indices/
   baseURL: blpapi://localhost:8194
   tags:
@@ -55,9 +53,9 @@ apis:
     url: https://www.bloomberg.com/professional/solution/indices/
 - aid: bloomberg-index-solutions-limited-bisl:index-licensing
   name: Bloomberg Index Licensing
-  description: License Bloomberg indices for use in ETFs, mutual funds, structured
-    products, and other financial instruments. BISL provides benchmark administration
-    services compliant with EU Benchmark Regulation (BMR) and other global frameworks.
+  description: License Bloomberg indices for use in ETFs, mutual funds, structured products, and other financial
+    instruments. BISL provides benchmark administration services compliant with EU Benchmark Regulation (BMR) and
+    other global frameworks.
   humanURL: https://www.bloomberg.com/professional/solution/indices/
   baseURL: https://indices.bloomberg.com
   tags:
@@ -74,6 +72,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/indices/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-index-solutions-limited-bisl-domain-security.yml
 - type: Portal
@@ -89,11 +92,9 @@ common:
 - type: Features
   data:
   - name: Index Constituents
-    description: Daily constituent data including weights, yields, durations, and
-      analytics.
+    description: Daily constituent data including weights, yields, durations, and analytics.
   - name: Index Returns
-    description: Daily, monthly, and historical total and excess returns for Bloomberg
-      indices.
+    description: Daily, monthly, and historical total and excess returns for Bloomberg indices.
   - name: Index Analytics
     description: Duration, spread, yield, and risk analytics for fixed income indices.
   - name: Benchmark Administration
@@ -113,3 +114,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
