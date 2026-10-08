@@ -84,6 +84,12 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/indices/
 common:
+- type: Plans
+  url: plans/bloomberg-index-solutions-limited-bisl-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-index-solutions-limited-bisl-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-index-solutions-limited-bisl-finops.yml
 - type: Website
   url: https://bloomberg.com
 - type: ParentCompany
