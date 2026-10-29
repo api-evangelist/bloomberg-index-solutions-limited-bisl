@@ -64,19 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bloomberg Index Solutions Limited (BISL) administers Bloomberg's fixed income and multi-asset indices, including the Bloomberg Global Aggregate Bond Index. BISL provides index data, calculations, and licensing for asset managers and financial institutions.
+Bloomberg Index Solutions Limited (BISL) is the entity that administers Bloomberg's fixed income and multi-asset indices, including the Bloomberg Global Aggregate Bond Index and other benchmark indices. BISL provides index data, calculations, and licensing for asset managers and financial institutions using Bloomberg indices as benchmarks or for financial product construction.
 
-## APIs
+**Areas:** Index · Fixed Income · Benchmarks · Multi-Asset · Index Administration · Bloomberg
 
-- **Bloomberg Index Data API** - Index constituent data, returns, and analytics
-- **Bloomberg Index Licensing** - Licensing Bloomberg indices for financial products
+## Bloomberg Index Solutions Limited (BISL) on APIs.io
 
-## Resources
+Everything profiled for Bloomberg Index Solutions Limited (BISL) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-index-solutions-limited-bisl/](https://apis.io/providers/bloomberg-index-solutions-limited-bisl/)** — or go straight to one of the APIs or properties below.
 
-- [Bloomberg Indices](https://www.bloomberg.com/professional/solution/indices/)
-- [Bloomberg Professional Portal](https://www.bloomberg.com/professional/)
-- [Bloomberg Support](https://www.bloomberg.com/professional/support/)
+### APIs (2)
 
-## Profile
+- [Bloomberg Index Data API](https://apis.io/apis/bloomberg-index-solutions-limited-bisl/index-data-api/) — Access Bloomberg index constituent data, returns, analytics, and historical data for the Bloomberg Global Aggregate, US Aggregate, Euro Aggregate, and other…
+- [Bloomberg Index Licensing](https://apis.io/apis/bloomberg-index-solutions-limited-bisl/index-licensing/) — License Bloomberg indices for use in ETFs, mutual funds, structured products, and other financial instruments. BISL provides benchmark administration…
 
-See [apis.yml](apis.yml) for the full API profile.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bloomberg Index Solutions Limited Bisl Domain Security](https://apis.io/security/bloomberg-index-solutions-limited-bisl/bloomberg-index-solutions-limited-bisl-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bloomberg Index Solutions Limited Bisl Plans Pricing](https://apis.io/plans/bloomberg-index-solutions-limited-bisl/bloomberg-index-solutions-limited-bisl-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bloomberg Index Solutions Limited Bisl Rate Limits](https://apis.io/rate-limits/bloomberg-index-solutions-limited-bisl/bloomberg-index-solutions-limited-bisl-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Index Solutions Limited Bisl Finops](https://apis.io/finops/bloomberg-index-solutions-limited-bisl/bloomberg-index-solutions-limited-bisl-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloomberg.com)
+- [Documentation](https://www.bloomberg.com/professional/solution/indices/)
+- [Support](https://www.bloomberg.com/professional/support/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 17.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-index-solutions-limited-bisl/](https://apis.io/providers/bloomberg-index-solutions-limited-bisl/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Index Solutions Limited (BISL): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-index-solutions-limited-bisl/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
